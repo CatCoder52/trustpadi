@@ -1,4 +1,7 @@
-
+.main{
+  max-width: 500px;
+  margin: auto;
+}
 .icon {
     height: 130px;
     width: 130px;
@@ -22,4 +25,9 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+  
+}
+.question{
+font-size: 18px;
+font-weight: bolder ;
 }
