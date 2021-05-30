@@ -1,6 +1,7 @@
-.main{
-  max-width: 500px;
-  margin: auto;
+.main {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
 }
 .icon {
     height: 130px;
@@ -25,9 +26,8 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-  
 }
-.question{
-font-size: 18px;
-font-weight: bolder ;
+.question {
+    font-size: 18px;
+    font-weight: bolder;
 }
