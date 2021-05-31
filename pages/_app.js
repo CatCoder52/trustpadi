@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import "../styles/global.css"
+import Header from "../components/Header"
 
 export default function _app({Component, pageProps}) {
     return (
@@ -30,6 +31,7 @@ export default function _app({Component, pageProps}) {
                     crossorigin="anonymous"
                 />
             </Head>
+            <Header/>
             <Component {...pageProps} />
         </div>
     );
