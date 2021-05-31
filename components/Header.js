@@ -5,7 +5,7 @@ import {ImMenu2} from 'react-icons/im';
 export default function Header() {
     return (
         <div>
-            <nav className="navbar fixed-top navbar-expand-lg " style={{backgroundColor: '#ffffff'}}>
+            <nav className="navbar fixed-top navbar-expand-lg " style={{backgroundColor: '#ffffff',  boxShadow:"0 0 10px 0 #a2d0ff  "}}>
                 <div className="navbar-brand ml-5 text-center d-none d-md-block d-lg-block" href="#">
                     <Image src="/../public/logo.png" alt="logo" width={50} height={50} />
                     <p style={{fontSize: '0.7em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>

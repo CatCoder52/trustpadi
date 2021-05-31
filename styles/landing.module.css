@@ -1,0 +1,23 @@
+@keyframes animatedBackground {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+  from {
+    background-position-y: 0 0;
+}
+to {
+   
+    background-position-y: 100%;
+}
+  
+}
+.section1{
+  background-image: url("../public/asset/bg.svg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  animation: animatedBackground 50s linear infinite alternate;
+  background-position-y: 0px 0px 0px 0px;
+}
