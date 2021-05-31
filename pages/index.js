@@ -60,6 +60,24 @@ export default function Home() {
             </main>
             {/* {{{section 2 end}}} */}
 
+            {/* {{{section 3 start}}} */}
+            <main className="pt-5">
+                <div className="container text-center">
+                    <p className="text-center" style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
+                        What Is <span style={{color: '#f49f1c'}}>Escrow</span>
+                    </p>
+                    <p className="text-center" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                        TrustPaddi is Nigerians most trusted escrow platform built with the latest technology which
+                        enables safer transactions between online sellers & buyers whether online or offline, TrustPaddi
+                        has got you covered. TrustPaddi protects the interest of both parties (Buyer & Seller). We
+                        enable online sellers make more sale's and gain the trust of there potential customers with our
+                        TrustPaddi links. We ensure that there online customers can buy without fear thus bridging the
+                        trust gap between online buyers and online sellers...
+                    </p>
+                </div>
+            </main>
+            {/* {{{section 3  end}}} */}
+
             <style jsx>
                 {`
                     .btn1 {
@@ -70,14 +88,14 @@ export default function Home() {
                         font-weight: bold !important;
                         background-color: #f49f1c !important;
                     }
-                    .btn2{
-                      filter: drop-shadow(0 0 10px #e4deec) !important;
-                      box-shadow: 0 0 10px 0 #a2d0ff !important;
-                      color: #ffffff !important;
-                      width: 300px !important;
-                      font-weight: bold !important;
-                      background-color: #210070 !important
-                     }
+                    .btn2 {
+                        filter: drop-shadow(0 0 10px #e4deec) !important;
+                        box-shadow: 0 0 10px 0 #a2d0ff !important;
+                        color: #ffffff !important;
+                        width: 300px !important;
+                        font-weight: bold !important;
+                        background-color: #210070 !important;
+                    }
                     main {
                         flex: 1;
                         display: flex;
