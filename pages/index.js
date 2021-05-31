@@ -78,6 +78,77 @@ export default function Home() {
             </main>
             {/* {{{section 3  end}}} */}
 
+            {/* {{{section 4 start}}} */}
+            <main className="pt-5">
+                <div className="container text-center">
+                    <p className="text-center " style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
+                        How It <span style={{color: '#f49f1c'}}>Works</span>
+                    </p>
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6 my-4">
+                            <div className="row">
+                                <div className="col-2">
+                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                </div>
+                                <div className="col-10 text-left">
+                                    <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
+                                        technology which enables safer transactions between online sellers & buyers
+                                        whether online or offline, TrustPaddi
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-6 my-4">
+                            <div className="row">
+                                <div className="col-2">
+                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                </div>
+                                <div className="col-10 text-left">
+                                    <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
+                                        technology which enables safer transactions between online sellers & buyers
+                                        whether online or offline, TrustPaddi
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-6 p my-4">
+                            <div className="row">
+                                <div className="col-2">
+                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                </div>
+                                <div className="col-10 text-left">
+                                    <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
+                                        technology which enables safer transactions between online sellers & buyers
+                                        whether online or offline, TrustPaddi
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-6 my-4">
+                            <div className="row">
+                                <div className="col-2">
+                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                </div>
+                                <div className="col-10 text-left">
+                                    <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
+                                        technology which enables safer transactions between online sellers & buyers
+                                        whether online or offline, TrustPaddi
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            {/* {{{section 4  end}}} */}
+
             <style jsx>
                 {`
                     .btn1 {
