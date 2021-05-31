@@ -67,12 +67,14 @@ export default function Home() {
                         What Is <span style={{color: '#f49f1c'}}>Escrow</span>
                     </p>
                     <p className="text-center" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
-                        TrustPaddi is Nigerians most trusted escrow platform built with the latest technology which
-                        enables safer transactions between online sellers & buyers whether online or offline, TrustPaddi
-                        has got you covered. TrustPaddi protects the interest of both parties (Buyer & Seller). We
-                        enable online sellers make more sale's and gain the trust of there potential customers with our
-                        TrustPaddi links. We ensure that there online customers can buy without fear thus bridging the
-                        trust gap between online buyers and online sellers...
+                        An "Escrow" is a financial agreement in which a third party controls payments between two
+                        transacting parties and only releases the funds involved when all of the terms of a given
+                        contract are met.
+                    </p>
+                    <p className="text-center" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                        Therefore, Whether you’re dealing with a real estate transaction, an online sale or a Crypto
+                        trader etc escrow is the best means to transact Securely and this is what TrustPaddi offers,
+                        Escrow Protection at it's best.
                     </p>
                 </div>
             </main>
