@@ -21,3 +21,11 @@ to {
   animation: animatedBackground 50s linear infinite alternate;
   background-position-y: 0px 0px 0px 0px;
 }
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

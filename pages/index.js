@@ -12,7 +12,7 @@ export default function Home() {
 
             {/* {{{section 1 start}}} */}
             <main className={Style.section1}>
-                <div className="container">
+                <div className={Style.container}>
                     <h1 className="section1-text d-none d-md-block d-lg-block">
                         It's Better <span className="section1-text-sub">Safe</span> Than Sorry
                     </h1>
@@ -29,16 +29,39 @@ export default function Home() {
             </main>
             {/* {{{section 1 end}}} */}
 
+            {/* {{{section 2 start}}} */}
+            <main className="">
+                <div className="container text-center">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6">
+                            <p
+                                className="text-center"
+                                style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
+                                What Is <span style={{color: '#f49f1c'}}>TrustPaddi</span>
+                            </p>
+                            <p className="text-center" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                TrustPaddi is Nigerians most trusted escrow platform built with the latest technology
+                                which enables safer transactions between online sellers & buyers whether online or
+                                offline, TrustPaddi has got you covered. TrustPaddi protects the interest of both
+                                parties (Buyer & Seller). We enable online sellers make more sale's and gain the trust
+                                of there potential customers with our TrustPaddi links. We ensure that there online
+                                customers can buy without fear thus bridging the trust gap between online buyers and
+                                online sellers...
+                            </p>
+                            <div className="pt-3 pb-3">
+                                <button className="btn  btn-md my-2 my-sm-0 ml-3 btn2">Know More</button>
+                            </div>
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={400} height={300} />
+                        </div>
+                    </div>
+                </div>
+            </main>
+            {/* {{{section 2 end}}} */}
+
             <style jsx>
                 {`
-                    .container {
-                        min-height: 100vh;
-                        padding: 0 0.5rem;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                    }
                     .btn1 {
                         filter: drop-shadow(0 0 10px #e7ba73) !important;
                         box-shadow: 0 0 10px 0 #e7ba73 !important;
@@ -47,6 +70,14 @@ export default function Home() {
                         font-weight: bold !important;
                         background-color: #f49f1c !important;
                     }
+                    .btn2{
+                      filter: drop-shadow(0 0 10px #e4deec) !important;
+                      box-shadow: 0 0 10px 0 #a2d0ff !important;
+                      color: #ffffff !important;
+                      width: 300px !important;
+                      font-weight: bold !important;
+                      background-color: #210070 !important
+                     }
                     main {
                         flex: 1;
                         display: flex;
