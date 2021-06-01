@@ -6,7 +6,7 @@ export default function sign_up() {
             <Head>
                 <title>TrustPaddi sign up</title>
             </Head>
-            <div className="container main ">
+            <div className="container text-center main ">
                 <div className="form-section">
                     <h2 id="titleText">Sign Up</h2>
                         <input type="text" name="Full Name" id="FullName" className="input" placeholder="Full Name" />
@@ -44,9 +44,6 @@ export default function sign_up() {
 
             <style jsx>
                 {`
-                    :root {
-                        font-family: 'Montserrat', sans-serif;
-                    }
                     .btn2 {
                         filter: drop-shadow(0 0 10px #e4deec) !important;
                         box-shadow: 0 0 10px 0 #a2d0ff !important;
@@ -150,7 +147,6 @@ export default function sign_up() {
                             background-color: #210070 !important;
                         }
                         .main {
-                            min-width: 500px;
                             margin: auto;
                             padding-top: 50%;
                         } 

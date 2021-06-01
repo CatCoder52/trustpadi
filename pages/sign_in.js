@@ -6,7 +6,7 @@ export default function sign_in() {
            <Head>
                 <title>TrustPaddi sign in</title>
             </Head>
-            <div className="container main ">
+            <div className="container main text-center">
                 <div className="form-section">
                     <h2 id="titleText">Sign In</h2>
                     <input type="text" name="Full Name" id="FullName" className="input" placeholder="Full Name" />
@@ -26,9 +26,7 @@ export default function sign_in() {
 
             <style jsx>
                 {`
-                    :root {
-                        font-family: 'Montserrat', sans-serif;
-                    }
+                  
                     .btn2 {
                         filter: drop-shadow(0 0 10px #e4deec) !important;
                         box-shadow: 0 0 10px 0 #a2d0ff !important;
@@ -131,10 +129,9 @@ export default function sign_in() {
                             background-color: #210070 !important;
                         }
                         .main {
-                            min-width: 500px;
-                            margin: auto;
-                            padding-top: 50%;
-                        }
+                          margin: auto;
+                          padding-top: 50%;
+                      } 
                     }
                 `}
             </style>
