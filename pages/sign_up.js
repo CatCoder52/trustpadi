@@ -3,7 +3,9 @@ import Head from 'next/head';
 export default function sign_up() {
     return (
         <div >
-            <Head />
+            <Head>
+                <title>TrustPaddi sign up</title>
+            </Head>
             <div className="container main ">
                 <div className="form-section">
                     <h2 id="titleText">Sign Up</h2>
