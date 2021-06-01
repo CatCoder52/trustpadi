@@ -344,7 +344,7 @@ export default function Home() {
                                     <ul>
                                         <p className="footer-header-text">Support</p>
                                         <li>Security</li>
-                                        <li>Fee calculato</li>
+                                        <li>Fee Calculator</li>
                                         <li>Fraud Prevention</li>
                                         <li>Report A Bug</li>
                                     </ul>
