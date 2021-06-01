@@ -1,42 +1,24 @@
 import Head from 'next/head';
 
-export default function sign_up() {
+export default function sign_in() {
     return (
-        <div >
+        <div>
             <Head />
             <div className="container main ">
                 <div className="form-section">
-                    <h2 id="titleText">Sign Up</h2>
-                        <input type="text" name="Full Name" id="FullName" className="input" placeholder="Full Name" />
-                        <br />
-                        <input type="email" name="Email" id="email" className="input" placeholder="Email" />
-                        <br />
-                        <input
-                            type="number"
-                            name="Phone Number"
-                            id="phoneNumber"
-                            className="input"
-                            placeholder="Phone"
-                        />
-                        <br />
-                        <input type="password" name="Password" id="password" className="input" placeholder="Password" />
-                        <br />
-                        <select id="sellerType" name="sellerType" className="input">
-                            <option value="business seller">I am a Business Seller</option>
-                            <option value="dealer">I am a Dealer</option>
-                        </select>
-                        <div className="form-footer flex">
-                            <div>
-                                <a href="ForgotPass.js">Register as a Buyer</a>
-                            </div>
-                        </div>
-                        <div className="pt-3 pb-3">
-                            <button className="btn  btn-md btn2">Sign Up</button>
-                        </div>
+                    <h2 id="titleText">Sign In</h2>
+                    <input type="text" name="Full Name" id="FullName" className="input" placeholder="Full Name" />
+                    <br />
+                    <input type="email" name="Email" id="email" className="input" placeholder="Email" />
+                    <br />
 
-                        <p className="underscript">
-                            Have an account? <a href="./SignIn.js">Sign In</a>
-                        </p>
+                    <div className="pt-3 pb-3">
+                        <button className="btn  btn-md btn2">Sign in</button>
+                    </div>
+
+                    <p className="underscript">
+                        Don't Have an account? <a href="./SignIn.js">Sign up</a>
+                    </p>
                 </div>
             </div>
 
@@ -57,7 +39,7 @@ export default function sign_up() {
                         max-width: 500px;
                         margin: auto;
                         padding-top: 13%;
-                    } 
+                    }
                     #titleText {
                         font-size: 2rem;
                     }
@@ -93,7 +75,7 @@ export default function sign_up() {
                         font-size: 14px !important;
                         padding: 20px;
                     }
-                    option{
+                    option {
                         font-weight: bold !important;
                         font-size: 14px !important;
                         padding: 20px;
@@ -102,13 +84,12 @@ export default function sign_up() {
                         outline: none;
                     }
                     select:focus {
-                        outline: none
+                        outline: none;
                     }
-                    select{
+                    select {
                         font-weight: bold !important;
                         font-size: 14px !important;
                         padding-left: 20px;
-                        
                     }
                     ::-webkit-input-placeholder {
                         /* Edge */
@@ -151,9 +132,8 @@ export default function sign_up() {
                             min-width: 500px;
                             margin: auto;
                             padding-top: 50%;
-                        } 
+                        }
                     }
-                   
                 `}
             </style>
         </div>
