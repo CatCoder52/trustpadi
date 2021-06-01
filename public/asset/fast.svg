@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201" height="202" viewBox="0 0 201 202">
+  <g id="Group_131" data-name="Group 131" transform="translate(-0.374 0.313)">
+    <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="100.5" cy="101" rx="100.5" ry="101" transform="translate(0.374 -0.313)" fill="#feba4f" opacity="0.2"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(64.373 62.682)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0.001 0.005)">
+        <g id="alarm_on" data-name="alarm on">
+          <path id="Path_47" data-name="Path 47" d="M62.436,16.428A40.314,40.314,0,0,0,40.2.218a3.225,3.225,0,0,0-1.767,6.2A33.943,33.943,0,0,1,57.1,20.039a3.224,3.224,0,1,0,5.339-3.611Z" transform="translate(10.452 0.021)" fill="#feba4f"/>
+          <path id="Path_48" data-name="Path 48" d="M5.893,19.949A34.639,34.639,0,0,1,24.593,6.3,3.217,3.217,0,0,0,22.749.141,41.126,41.126,0,0,0,.554,16.325,3.224,3.224,0,0,0,1.418,20.8a3.121,3.121,0,0,0,1.805.567A3.224,3.224,0,0,0,5.893,19.949Z" transform="translate(-0.001 -0.005)" fill="#feba4f"/>
+          <path id="Path_49" data-name="Path 49" d="M35.948,7.37a33.3,33.3,0,1,0,33.3,33.285A33.3,33.3,0,0,0,35.948,7.37Zm16.469,26.5L34.3,52.03a3.237,3.237,0,0,1-4.565,0L19.493,41.713a3.224,3.224,0,0,1,4.552-4.552l7.97,7.97,15.85-15.811a3.224,3.224,0,0,1,4.552,4.552Z" transform="translate(0.766 2.129)" fill="#feba4f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

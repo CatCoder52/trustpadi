@@ -1,12 +1,14 @@
 import Head from 'next/head';
 import Style from '../styles/landing.module.css';
 import Image from 'next/image';
+import {FaFacebook, FaMediumM, FaYoutube} from 'react-icons/fa';
+import {AiFillInstagram, AiFillLinkedin, AiOutlineTwitter} from 'react-icons/ai';
 
 export default function Home() {
     return (
         <div>
             <Head>
-                <title>Create Next App</title>
+                <title>Home</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -23,7 +25,7 @@ export default function Home() {
                         Transact Securely with online vendors & marketplaces, gain customers trust with TrustPaddi
                     </p>
                     <div className="pt-3">
-                        <button className="btn  btn-md my-2 my-sm-0 ml-3 btn1">Do Business Now</button>
+                        <button className="btn  btn-md my-2 my-sm-0 ml-3 btn1">Get Started Now</button>
                     </div>
                 </div>
             </main>
@@ -62,11 +64,11 @@ export default function Home() {
 
             {/* {{{section 3 start}}} */}
             <main className="pt-5">
-                <div className="container text-center">
+                <div className="container text-center pt-5">
                     <p className="text-center" style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
                         What Is <span style={{color: '#f49f1c'}}>Escrow</span>
                     </p>
-                    <p className="text-center" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                    <p className="text-center pt-5" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
                         An "Escrow" is a financial agreement in which a third party controls payments between two
                         transacting parties and only releases the funds involved when all of the terms of a given
                         contract are met.
@@ -86,17 +88,16 @@ export default function Home() {
                     <p className="text-center " style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
                         How It <span style={{color: '#f49f1c'}}>Works</span>
                     </p>
-                    <div className="row">
+                    <div className="row pt-5">
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                    <Image src="/../public/asset/agre.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
-                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
-                                        technology which enables safer transactions between online sellers & buyers
-                                        whether online or offline, TrustPaddi
+                                        Buyer and seller agree on the terms of the transaction: Eg Price, duration,
+                                        proposed delivery date etc.
                                     </span>
                                 </div>
                             </div>
@@ -105,13 +106,12 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                    <Image src="/../public/asset/create.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
-                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
-                                        technology which enables safer transactions between online sellers & buyers
-                                        whether online or offline, TrustPaddi
+                                        Buyer or Seller Initiates (Begins) the escrow: either parties can creates an
+                                        escrow transaction .
                                     </span>
                                 </div>
                             </div>
@@ -120,13 +120,11 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 p my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                    <Image src="/../public/asset/paytrustpaddi.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
-                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
-                                        technology which enables safer transactions between online sellers & buyers
-                                        whether online or offline, TrustPaddi
+                                        Buyer pays to TrustPaddi: TrustPaddi holds on to the payment.
                                     </span>
                                 </div>
                             </div>
@@ -135,13 +133,40 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={80} height={80} />
+                                    <Image src="/../public/asset/delivery.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
-                                        TrustPaddi is Nigerians most trusted escrow platform built with the latest
-                                        technology which enables safer transactions between online sellers & buyers
-                                        whether online or offline, TrustPaddi
+                                        merchise is shipped to the buyer: Seller ships the merchandise to you or we help
+                                        you retrieve the merchandise and deliver it to you.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-6 my-4">
+                            <div className="row">
+                                <div className="col-2">
+                                    <Image src="/../public/asset/agre.svg" alt="logo" width={80} height={80} />
+                                </div>
+                                <div className="col-10 text-left">
+                                    <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                        Buyer confirms the merchandise : He/she verifies the product to see if its
+                                        exactly what he ordered.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-6 my-4">
+                            <div className="row">
+                                <div className="col-2">
+                                    <Image src="/../public/asset/payuser.svg" alt="logo" width={80} height={80} />
+                                </div>
+                                <div className="col-10 text-left">
+                                    <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                        TrustPaddi Pays the Seller. Now you can see that, the whole process is Simple &
+                                        Automated.
                                     </span>
                                 </div>
                             </div>
@@ -150,6 +175,233 @@ export default function Home() {
                 </div>
             </main>
             {/* {{{section 4  end}}} */}
+
+            {/* {{{section 5 start}}} */}
+            <main className="pt-5 pb-5">
+                <div className="container text-center">
+                    <p className="text-center" style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
+                        Who Can Use <span style={{color: '#f49f1c'}}>TrustPaddi</span>
+                    </p>
+                    <div className="row pt-5">
+                        <div className="col-sm-12 col-md-4  my-3">
+                            <div className="card border-0" style={{backgroundColor: '#f49f1c'}}>
+                                <div className="card-body">
+                                    <div className="img_bg ">
+                                        <div className="icon">
+                                            <Image src="/../public/asset/p2p.svg" alt="logo" width={200} height={200} />
+                                        </div>
+                                    </div>
+                                    <h3
+                                        className="pt-3"
+                                        style={{fontSize: '1em', fontWeight: 'bold', color: '#210070'}}>
+                                        INDIVIDUALS
+                                    </h3>
+                                    <p
+                                        className="pt-3"
+                                        style={{fontSize: '0.8em', fontWeight: 'bold', color: '#ffffff'}}>
+                                        Individuals/ Buyer [Person to Person (P2P), Crypto Trader's & Buyer's etc] : Any
+                                        individual can use TrustPaddi especially when it comes to making transactions
+                                        with unknown online vendors or people, we act as a middle man between both
+                                        parties and ensure that both parties are satisfied.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-4  my-3">
+                            <div className="card border-0" style={{backgroundColor: '#210070'}}>
+                                <div className="card-body">
+                                    <div className="img_bg ">
+                                        <div className="icon">
+                                            <Image
+                                                src="/../public/asset/business.svg"
+                                                alt="logo"
+                                                width={200}
+                                                height={200}
+                                            />
+                                        </div>
+                                    </div>
+                                    <h3
+                                        className="pt-3"
+                                        style={{fontSize: '1em', fontWeight: 'bold', color: '#f49f1c'}}>
+                                        BUSINESSES
+                                    </h3>
+                                    <p
+                                        className="pt-3"
+                                        style={{fontSize: '0.8em', fontWeight: 'bold', color: '#ffffff'}}>
+                                        Business owners /Online Vendors / Service Providers / Indust [Business to
+                                        Consumer (B2C)/Business to Business (B2B)] : Any Business owner can use
+                                        TrustPaddi, with our escrow services we make it easier to gain customers trust,
+                                        boost your sales, avoid the risk of pay on delivery and we keep un serious
+                                        customers away from your business.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-12 col-md-4 my-3">
+                            <div className="card border-0" style={{backgroundColor: '#f49f1c'}}>
+                                <div className="card-body">
+                                    <div className="img_bg ">
+                                        <div className="icon">
+                                            <Image
+                                                src="/../public/asset/online.svg"
+                                                alt="logo"
+                                                width={200}
+                                                height={200}
+                                            />
+                                        </div>
+                                    </div>
+                                    <h3
+                                        className="pt-3"
+                                        style={{fontSize: '1em', fontWeight: 'bold', color: '#210070'}}>
+                                        ONLINE MARKETPLACES & STORSS
+                                    </h3>
+                                    <p
+                                        className="pt-3"
+                                        style={{fontSize: '0.8em', fontWeight: 'bold', color: '#ffffff'}}>
+                                        Online Marketplaces & e-commerce websites: Potential customers are always
+                                        skeptical about certain e-commerce sites, the best way to gain your customers
+                                        trust is to integrate TrustPaddi with your e-commerce website or marketplace.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            {/* {{{section 5  end}}} */}
+
+            {/* {{{section 6 start}}} */}
+            <main className="pt-5">
+                <div className="container text-center">
+                    <p className="text-center " style={{color: '#210070', fontWeight: 'bolder', fontSize: '1.5em'}}>
+                        Why Use <span style={{color: '#f49f1c'}}>TrustPaddi</span>
+                    </p>
+                    <div className="row pt-5">
+                        <div className="col-sm-12 col-md-4">
+                            <div className="icon">
+                                <Image src="/../public/asset/trusted.svg" alt="logo" width={80} height={80} />
+                            </div>
+                            <h3 className="pt-3" style={{fontSize: '1em', fontWeight: 'bold', color: '#02bc77'}}>
+                                Trusted
+                            </h3>
+                            <p className="pt-3" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                Our platform has been used by many and trusted by all.
+                            </p>
+                        </div>
+                        <div className="col-sm-12 col-md-4">
+                            <div className="icon">
+                                <Image src="/../public/asset/save.svg" alt="logo" width={80} height={80} />
+                            </div>
+                            <h3 className="pt-3" style={{fontSize: '1em', fontWeight: 'bold', color: '#4169e2'}}>
+                                Secure
+                            </h3>
+                            <p className="pt-3" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                TrustPaddi ensures buyer and seller protection, and protects the interest of both
+                                parties.
+                            </p>
+                        </div>
+                        <div className="col-sm-12 col-md-4">
+                            <div className="icon">
+                                <Image src="/../public/asset/fast.svg" alt="logo" width={80} height={80} />
+                            </div>
+                            <h3 className="pt-3" style={{fontSize: '1em', fontWeight: 'bold', color: '#feba4f'}}>
+                                Fast Delivery
+                            </h3>
+                            <p className="pt-3" style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
+                                We also help deliver goods faster to customers with our network of trusted logistics
+                                partners.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            {/* {{{section 6 end}}} */}
+            <div className="pt-3 text-center">
+                <button className="btn  btn-md my-2 my-sm-0 ml-3 btn1">Get Started Now</button>
+            </div>
+
+            <footer className="footer-body mb-0 pb-0">
+                <div className="footer-container">
+                    <div className="row  footer-section">
+                        <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="footer--content">
+                                <div className="footer-links-content">
+                                    <ul>
+                                        <p className="footer-header-text">Company</p>
+                                        <li>About Us</li>
+                                        <li>Privacy Policy</li>
+                                        <li>Terms and Conditions</li>
+                                        <li>P2P Transaction</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="footer--content">
+                                <div className="footer-links-content">
+                                    <ul>
+                                        <p className="footer-header-text">Support</p>
+                                        <li>Security</li>
+                                        <li>Fee calculato</li>
+                                        <li>Fraud Prevention</li>
+                                        <li>Report A Bug</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="footer--content">
+                                <div className="footer-links-content">
+                                    <ul>
+                                        <p className="footer-header-text">Resource</p>
+                                        <li>Testimonials</li>
+                                        <li>FAQ</li>
+                                        <li>Blog</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="footer--content">
+                                <div className="footer-links-content">
+                                    <ul>
+                                        <p className="footer-header-text">Contact</p>
+                                        <li>contactus@trustpaddi.com</li>
+                                        <li>Lagos: +2349033275449</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <FaFacebook className="ml-3" />
+                    <AiFillInstagram className=" ml-3" />
+                    <AiFillLinkedin className=" ml-3" />
+                    <AiOutlineTwitter className=" ml-3" />
+                    <FaMediumM className="ml-3" />
+                    <FaYoutube className="ml-3" />
+
+                    <div className="pt-4">
+                        <img
+                            alt="pic"
+                            style={{height: '20px'}}
+                            className="mr-2 ml-3"
+                            src={'https://trav4college.com/assets/icons/nigeria.svg'}
+                        />
+                        <span>Port Harcourt, Lagos, Nigeria</span>
+                    </div>
+                    {/* <div className="pt-4">
+                        <img
+                            alt="pic"
+                            style={{height: '20px'}}
+                            className="mr-2 ml-3"
+                            src={'https://trav4college.com/assets/icons/united-states.svg'}
+                        />
+                        <span>770 Old Roswell Place Suite I-200, Roswell, GA 30076,USA</span>
+                    </div> */}
+                </div>
+            </footer>
 
             <style jsx>
                 {`
@@ -192,6 +444,60 @@ export default function Home() {
                         color: #000000;
                         font-size: 0.9em;
                         font-weight: bold;
+                    }
+                    .img_bg {
+                        background-color: #ffffff;
+                        border-radius: 100%;
+                        height: 130px;
+                        width: 130px;
+                        justify-content: center;
+                        align-content: center;
+                        align-self: center;
+                        align-items: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .icon {
+                        padding: 30px;
+                        justify-content: center;
+                        align-content: center;
+                        align-self: center;
+                        align-items: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .footer-body {
+                        background-color: #a2d0ff;
+                        margin-top: 8%;
+                        margin-bottom: 10%;
+                    }
+                    .footer-header-text {
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+                    ul {
+                        list-style-type: none;
+                    }
+                    li {
+                        font-size: 17px;
+                        font-weight: 400;
+                        color: #000000;
+                        opacity: 0.8;
+                        line-height: 2em;
+                    }
+                    .footer-container {
+                        padding-left: 50px;
+                        padding-right: 50px;
+                        padding-top: 10%;
+                        padding-bottom: 5%;
+                    }
+
+                    /* =========mobile screen====== */
+                    @media screen and (max-width: 479px) {
+                        .footer-container {
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
                     }
                 `}
             </style>
