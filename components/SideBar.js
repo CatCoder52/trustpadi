@@ -78,7 +78,7 @@ const SideBar = () => {
                         padding-bottom: 10px;
                         padding-top: 13px;
                         padding-left: 20px;
-                        width: 150px
+                        width: 200px
                     }
                     :hover.side-link-container {
                         background-color: #ecf0fc;

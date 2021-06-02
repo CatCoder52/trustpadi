@@ -5,7 +5,7 @@ export default function dashboard_overview() {
     return (
         <div className="body">
             <div className="row">
-                <div className="">
+                <div className="container-fluid">
                     <div className="col-2  d-none d-lg-block">
                         <SideBar />
                     </div>
