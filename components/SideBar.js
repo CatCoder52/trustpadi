@@ -31,15 +31,15 @@ const SideBar = () => {
                     <a href="/admin_dashboard/settings">
                         <div className="side-link-container side-link-text">
                             <FiRefreshCcw style={{fontSize: '1em', marginRight: '10px'}} />
-                            <span>Withdrawals</span>
+                            <span>Refund</span>
                         </div>
                     </a>
-                    <a href="/admin_dashboard/settings">
+                    {/* <a href="/admin_dashboard/settings">
                         <div className="side-link-container side-link-text">
                             <HiCash style={{fontSize: '1em', marginRight: '10px'}} />
                             <span>Withdrawals</span>
                         </div>
-                    </a>
+                    </a> */}
                     <a href="/admin_dashboard/settings">
                         <div className="side-link-container side-link-text">
                             <FaCog style={{fontSize: '1em', marginRight: '10px'}} />
@@ -52,20 +52,19 @@ const SideBar = () => {
             <style jsx>
                 {`
                     .side-bar-card {
-                        margin-top: 5%;
+                        margin-top: 8%;
                         height: 100vh;
                         border-radius: 0%;
                         position: fixed;
-                        width: 17vw;
                         background-color: #ffffff;
                     }
                     .side-card-body {
-                        margin-top: 50%;
-                        margin-bottom: 20%;
+                        margin-top: 30%;
+                        margin-bottom: 10%;
                      
                     }
                     .side-link-container {
-                        margin-bottom: 30px;
+                        margin-bottom: 10px;
                         cursor: pointer;
                         margin-left: 30px;
                         text-align: start;
@@ -78,14 +77,13 @@ const SideBar = () => {
                         align-items: center;
                         padding-bottom: 10px;
                         padding-top: 13px;
-                        padding-left: 30px;
+                        padding-left: 20px;
+                        width: 150px
                     }
                     :hover.side-link-container {
                         background-color: #ecf0fc;
                         border-radius: 20px;
-                        height: 50px;
-                        padding-left: 30px;
-                   
+                        height: 50px;                 
                         color: #4169e2;
                     }
                     a {
