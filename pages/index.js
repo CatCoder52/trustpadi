@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Style from '../styles/landing.module.css';
 import Image from 'next/image';
+import Footer from "../components/Footer"
 
 
 export default function Home() {
@@ -321,7 +322,7 @@ export default function Home() {
                 <button className="btn  btn-md my-2 my-sm-0 ml-3 btn1">Get Started Now</button>
             </div>
 
-         
+            <Footer/>
 
             <style jsx>
                 {`

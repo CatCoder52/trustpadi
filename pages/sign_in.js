@@ -1,9 +1,10 @@
 import Head from 'next/head';
+import Footer from "../components/Footer"
 
 export default function sign_in() {
     return (
         <div>
-           <Head>
+            <Head>
                 <title>TrustPaddi sign in</title>
             </Head>
             <div className="container main text-center">
@@ -23,10 +24,9 @@ export default function sign_in() {
                     </p>
                 </div>
             </div>
-
+            <Footer/>
             <style jsx>
                 {`
-                  
                     .btn2 {
                         filter: drop-shadow(0 0 10px #e4deec) !important;
                         box-shadow: 0 0 10px 0 #a2d0ff !important;
@@ -129,9 +129,9 @@ export default function sign_in() {
                             background-color: #210070 !important;
                         }
                         .main {
-                          margin: auto;
-                          padding-top: 50%;
-                      } 
+                            margin: auto;
+                            padding-top: 50%;
+                        }
                     }
                 `}
             </style>

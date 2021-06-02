@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from "../components/Footer"
 
 export default function sign_up() {
     return (
@@ -41,7 +42,7 @@ export default function sign_up() {
                         </p>
                 </div>
             </div>
-
+            <Footer/>
             <style jsx>
                 {`
                     .btn2 {
