@@ -52,7 +52,7 @@ const SideBar = () => {
             <style jsx>
                 {`
                     .side-bar-card {
-                        margin-top: 8%;
+                        margin-top: 7%;
                         height: 100vh;
                         border-radius: 0%;
                         position: fixed;
