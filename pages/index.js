@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Style from '../styles/landing.module.css';
 import Image from 'next/image';
-import Footer from "../components/Footer"
-
+import Footer from '../components/Footer';
 
 export default function Home() {
     return (
@@ -322,7 +321,7 @@ export default function Home() {
                 <button className="btn  btn-md my-2 my-sm-0 ml-3 btn1">Get Started Now</button>
             </div>
 
-            <Footer/>
+            <Footer />
 
             <style jsx>
                 {`
@@ -387,7 +386,6 @@ export default function Home() {
                         margin-left: auto;
                         margin-right: auto;
                     }
-                
                 `}
             </style>
         </div>
