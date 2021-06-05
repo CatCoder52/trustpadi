@@ -33,7 +33,7 @@ export default function faq() {
                                     <span>
                                         doloremque consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing
                                         elit.
-                                    </span>{' '}
+                                    </span>
                                     Nostrum temporibus impedit quaerat sit, animi cupiditate natus dolor, saepe, ipsa
                                     asperiores laudantium nisi repellendus ea quia est blanditiis. Dolore, doloremque
                                     consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
