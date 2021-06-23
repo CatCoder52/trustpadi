@@ -15,7 +15,7 @@ to {
   
 }
 .section1{
-  background-image: url("../public/asset/bg.svg");
+  background-image: url("../public/bg.svg");
   background-repeat: no-repeat;
   object-fit: cover;
   animation: animatedBackground 50s linear infinite alternate;

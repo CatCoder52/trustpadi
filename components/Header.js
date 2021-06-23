@@ -1,23 +1,34 @@
 import React from 'react';
 import Image from 'next/image';
 import {ImMenu2} from 'react-icons/im';
+import Link from 'next/link';
 
 export default function Header() {
     return (
         <div>
-            <nav className="navbar fixed-top navbar-expand-lg " style={{backgroundColor: '#ffffff',  boxShadow:"0 0 10px 0 #a2d0ff  "}}>
-                <div className="navbar-brand ml-5 text-center d-none d-md-block d-lg-block" href="#">
-                    <Image src="/../public/logo.png" alt="logo" width={50} height={50} />
-                    <p style={{fontSize: '0.7em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>
-                        TrustPaddi
-                    </p>
+            <nav
+                className="navbar fixed-top navbar-expand-lg "
+                style={{backgroundColor: '#ffffff', boxShadow: '0 0 10px 0 #a2d0ff  '}}>
+                <div className="navbar-brand ml-5 text-center d-none d-md-block d-lg-block">
+                    <Link href="/">
+                        <div>
+                            <Image src="/../public/logo.png" alt="logo" width={50} height={50} />
+                            <p style={{fontSize: '0.7em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>
+                                TrustPaddi
+                            </p>
+                        </div>
+                    </Link>
                 </div>
                 {/* {{mobile}} */}
-                <div className="navbar-brand  text-center d-lg-none d-md-none d-sm-block pt-3" href="#">
-                    <Image src="/../public/logo.png" alt="logo" width={35} height={35} />
-                    <p style={{fontSize: '0.6em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>
-                        TrustPaddi
-                    </p>
+                <div className="navbar-brand  text-center d-lg-none d-md-none d-sm-block pt-3">
+                    <Link href="/">
+                        <div>
+                            <Image src="/../public/logo.png" alt="logo" width={35} height={35} />
+                            <p style={{fontSize: '0.6em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>
+                                TrustPaddi
+                            </p>
+                        </div>
+                    </Link>
                 </div>
 
                 <ImMenu2
@@ -49,9 +60,12 @@ export default function Header() {
                             <p className="nav-link my-link">Pricing</p>
                         </li>
                     </ul>
-
-                    <button className="btn  btn-md my-2 my-sm-0 btn1">Signin</button>
-                    <button className="btn  btn-md my-2 my-sm-0 ml-3 btn2">Signout</button>
+                    <Link href="/sign_in">
+                        <button className="btn  btn-md my-2 my-sm-0 btn1">Signin</button>
+                    </Link>
+                    <Link href="/sign_up">
+                        <button className="btn  btn-md my-2 my-sm-0 ml-3 btn2">Signup</button>
+                    </Link>
                 </div>
             </nav>
 

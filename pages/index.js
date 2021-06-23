@@ -54,7 +54,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6">
-                            <Image src="/../public/asset/trustpaddi.jpeg" alt="logo" width={400} height={300} />
+                            <Image src="/trustpaddi.jpeg" alt="logo" width={400} height={300} />
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/agre.svg" alt="logo" width={80} height={80} />
+                                    <Image src="/agre.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
@@ -105,7 +105,7 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/create.svg" alt="logo" width={80} height={80} />
+                                    <Image src="/create.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
@@ -119,7 +119,7 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 p my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/paytrustpaddi.svg" alt="logo" width={80} height={80} />
+                                    <Image src="/paytrustpaddi.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
@@ -132,7 +132,7 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/delivery.svg" alt="logo" width={80} height={80} />
+                                    <Image src="/delivery.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
@@ -146,7 +146,7 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/agre.svg" alt="logo" width={80} height={80} />
+                                    <Image src="/agre.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
@@ -160,7 +160,7 @@ export default function Home() {
                         <div className="col-sm-12 col-md-6 my-4">
                             <div className="row">
                                 <div className="col-2">
-                                    <Image src="/../public/asset/payuser.svg" alt="logo" width={80} height={80} />
+                                    <Image src="/payuser.svg" alt="logo" width={80} height={80} />
                                 </div>
                                 <div className="col-10 text-left">
                                     <span style={{fontSize: '0.9em', fontWeight: 'bold', opacity: '0.5'}}>
@@ -187,7 +187,7 @@ export default function Home() {
                                 <div className="card-body">
                                     <div className="img_bg ">
                                         <div className="icon">
-                                            <Image src="/../public/asset/p2p.svg" alt="logo" width={200} height={200} />
+                                            <Image src="/p2p.svg" alt="logo" width={200} height={200} />
                                         </div>
                                     </div>
                                     <h3
@@ -213,7 +213,7 @@ export default function Home() {
                                     <div className="img_bg ">
                                         <div className="icon">
                                             <Image
-                                                src="/../public/asset/business.svg"
+                                                src="/business.svg"
                                                 alt="logo"
                                                 width={200}
                                                 height={200}
@@ -244,7 +244,7 @@ export default function Home() {
                                     <div className="img_bg ">
                                         <div className="icon">
                                             <Image
-                                                src="/../public/asset/online.svg"
+                                                src="/online.svg"
                                                 alt="logo"
                                                 width={200}
                                                 height={200}
@@ -280,7 +280,7 @@ export default function Home() {
                     <div className="row pt-5">
                         <div className="col-sm-12 col-md-4">
                             <div className="icon">
-                                <Image src="/../public/asset/trusted.svg" alt="logo" width={80} height={80} />
+                                <Image src="/trusted.svg" alt="logo" width={80} height={80} />
                             </div>
                             <h3 className="pt-3" style={{fontSize: '1em', fontWeight: 'bold', color: '#02bc77'}}>
                                 Trusted
@@ -291,7 +291,7 @@ export default function Home() {
                         </div>
                         <div className="col-sm-12 col-md-4">
                             <div className="icon">
-                                <Image src="/../public/asset/save.svg" alt="logo" width={80} height={80} />
+                                <Image src="/save.svg" alt="logo" width={80} height={80} />
                             </div>
                             <h3 className="pt-3" style={{fontSize: '1em', fontWeight: 'bold', color: '#4169e2'}}>
                                 Secure
@@ -303,7 +303,7 @@ export default function Home() {
                         </div>
                         <div className="col-sm-12 col-md-4">
                             <div className="icon">
-                                <Image src="/../public/asset/fast.svg" alt="logo" width={80} height={80} />
+                                <Image src="/fast.svg" alt="logo" width={80} height={80} />
                             </div>
                             <h3 className="pt-3" style={{fontSize: '1em', fontWeight: 'bold', color: '#feba4f'}}>
                                 Fast Delivery

@@ -10,11 +10,14 @@ const SideBar = () => {
         <div>
             <div className="card side-bar-card shadow border-0">
                 <div className="side-card-body">
-                <a href="/admin_dashboard/settings" >
+                <a href="/dashboard_overview" >
                         <div className="side-link-container side-link-text">
                             <MdDashboard style={{fontSize: '1em', marginRight: '10px'}} />
                             <span>Overview</span>
                         </div>
+                    </a>
+                    <a href="/dashboard_overview" >
+                            Overview
                     </a>
                     <a href="/admin_dashboard/settings">
                         <div className="side-link-container side-link-text">
@@ -88,6 +91,12 @@ const SideBar = () => {
                     }
                     a {
                         text-decoration: none;
+                    }
+                    a:active{
+                        background-color: #ecf0fc;
+                        border-radius: 20px;
+                        height: 50px;                 
+                        color: #4169e2;
                     }
                 `}
             </style>
