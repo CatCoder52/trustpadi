@@ -12,7 +12,7 @@ export default function Header() {
                 <div className="navbar-brand ml-5 text-center d-none d-md-block d-lg-block">
                     <Link href="/">
                         <div>
-                            <Image src="/../public/logo.png" alt="logo" width={50} height={50} />
+                            <Image src="/logo.png" alt="logo" width={50} height={50} />
                             <p style={{fontSize: '0.7em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>
                                 TrustPaddi
                             </p>
@@ -23,7 +23,7 @@ export default function Header() {
                 <div className="navbar-brand  text-center d-lg-none d-md-none d-sm-block pt-3">
                     <Link href="/">
                         <div>
-                            <Image src="/../public/logo.png" alt="logo" width={35} height={35} />
+                            <Image src="/logo.png" alt="logo" width={35} height={35} />
                             <p style={{fontSize: '0.6em', fontWeight: 'bold', color: '#210070', marginTop: '-10px'}}>
                                 TrustPaddi
                             </p>
